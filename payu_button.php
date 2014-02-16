@@ -5,7 +5,7 @@ define("__DEBUG__", 1); # Debug mode 0 = off, 1 = on
 
 
 
-define("__currency__", "UAH"); # Currency of merchant
+define("__currency__", "RUB"); # Currency of merchant
 define("__language__", "RU"); # Language of payment page
 
 define("__PAYUIMG__", "/payu.jpg"); # link to file payu.jpg
@@ -139,7 +139,7 @@ switch( $_GET['act'] )
 
 class PayU
 {
-	var $luUrl = "https://secure.payu.ua/order/lu.php", 
+	var $luUrl = "https://secure.payu.ru/order/lu.php", 
 		$button = "<input type='submit'>",
 		$debug = 0,
 		$showinputs = "hidden";

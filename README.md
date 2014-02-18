@@ -16,7 +16,7 @@ define("__MERCHANT__", "мерчант");  # идентификатор_мерч
 define("__SECRETKEY__", "ключ"); 	# Секретный ключ мернчанта
 define("__DEBUG__", 1); # Режим отладки. 1 = включен, 0 = включен 
 
-define("__currency__", "UAH");  # Currency of merchant 
+define("__currency__", "RUB");  # Currency of merchant 
 define("__language__", "RU");  # Язык платежной системы 
 
 define("__PAYUIMG__", "/payu.jpg");  # Прямая ссылка на картинку
